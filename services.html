@@ -12,6 +12,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&amp;family=Barlow+Semi+Condensed:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/plugins.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Keep the booking button consistent with the site's existing colours. */
+        .services .item {
+            display: flex;
+            flex-direction: column;
+            height: calc(100% - 25px);
+        }
+        .services .item p {
+            flex-grow: 1;
+        }
+        .services .item .book-now-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            align-self: flex-center;
+            gap: 9px;
+            margin-top: 20px;
+            padding: 10px 18px;
+            border: 2px solid #f57b20;
+            border-radius: 3px;
+            color: #f57b20;
+            background: transparent;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 1.4;
+            text-decoration: none;
+            transition: background .25s ease, color .25s ease, border-color .25s ease;
+        }
+        .services .item .book-now-btn:hover {
+            color: white;
+            background: #f57b20;
+            border-color: #f57b20;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -96,44 +131,65 @@
                         <div class="row justify-content-center">
                             <div class="col-md-4">
                                 <div class="item mb-25 duru-slide-right"> <a href="service-details.html"><span class="arrow fa-thin fa-arrow-up-right"></span></a>
-                                    <div class="icon"><i class="fa-thin fa-route"></i></div>
-                                    <h5>Custom Tour Packages</h5>
-                                    <p>Personalized travel plans tailored to your interests and budget.</p>
+                                    <div class="icon"><i class="fa-thin fa-plane-arrival"></i></div>
+                                    <h5>Airport Transfers</h5><p>Arrive and depart from UAE airports with ease and comfort. Our punctual and reliable airport transfer services ensure a smooth and hassle-free journey, providing you with peace of mind from the moment you land to the moment you take off.</p>
+                                    <a class="book-now-btn" href="https://wa.me/971501461987?text=Hello%20Global%20Ovista%2C%20I%20would%20like%20to%20book%20your%20Airport%20Transfers." target="_blank" rel="noopener noreferrer">Book Now <i class="fa-brands fa-whatsapp"></i></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="item mb-25 duru-slide-right"> <a href="service-details.html"><span class="arrow fa-thin fa-arrow-up-right"></span></a>
-                                    <div class="icon"><i class="fa-thin fa-plane-departure"></i></div>
-                                    <h5>Flight Booking</h5>
-                                    <p>Fast and secure flight reservations at the best available prices.</p>
+                                    <div class="icon"><i class="fa-thin fa-car"></i></div>
+                                    <h5>Chauffeur Service</h5><p>Experience the ultimate in luxury and convenience with our professional chauffeur service. Our highly trained drivers are dedicated to providing a first-class experience, ensuring you reach your destination in style and comfort.</p>
+                                    <a class="book-now-btn" href="https://wa.me/971501461987?text=Hello%20Global%20Ovista%2C%20I%20would%20like%20to%20book%20your%20Chauffeur%20Service." target="_blank" rel="noopener noreferrer">Book Now <i class="fa-brands fa-whatsapp"></i></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="item mb-25 duru-slide-right"> <a href="service-details.html"><span class="arrow fa-thin fa-arrow-up-right"></span></a>
-                                    <div class="icon"><i class="fa-thin fa-hotel"></i></div>
-                                    <h5>Hotel & Accommodation</h5>
-                                    <p>Comfortable and premium accommodation options worldwide.</p>
+                                    <div class="icon"><i class="fa-thin fa-bus"></i></div>
+                                    <h5>Luxury Coach Buses</h5><p>Ideal for large groups and events, our luxury coach buses offer spacious, comfortable, and modern transportation solutions. Equipped with the latest amenities, our coaches provide a pleasant and enjoyable travel experience for all passengers.</p>
+                                    <a class="book-now-btn" href="https://wa.me/971501461987?text=Hello%20Global%20Ovista%2C%20I%20would%20like%20to%20book%20your%20Luxury%20Coach%20Buses." target="_blank" rel="noopener noreferrer">Book Now <i class="fa-brands fa-whatsapp"></i></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="item mb-25 duru-slide-left"> <a href="service-details.html"><span class="arrow fa-thin fa-arrow-up-right"></span></a>
-                                    <div class="icon"><i class="fa-thin fa-passport"></i></div>
-                                    <h5>Visa Assistance</h5>
-                                    <p>Professional support for all your travel visa procedures.</p>
+                                    <div class="icon"><i class="fa-thin fa-car-side"></i></div>
+                                    <h5>Limousine Service</h5><p>Travel in unparalleled luxury with our exclusive limousine service. Perfect for special occasions, corporate events, or simply making a grand entrance, our limousines are the epitome of elegance and sophistication.</p>
+                                    <a class="book-now-btn" href="https://wa.me/971501461987?text=Hello%20Global%20Ovista%2C%20I%20would%20like%20to%20book%20your%20Limousine%20Service." target="_blank" rel="noopener noreferrer">Book Now <i class="fa-brands fa-whatsapp"></i></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="item mb-25 duru-slide-left"> <a href="service-details.html"><span class="arrow fa-thin fa-arrow-up-right"></span></a>
-                                    <div class="icon"><i class="fa-thin fa-van-shuttle"></i></div>
-                                    <h5>Transfer Services</h5>
-                                    <p>Reliable airport and city transfer solutions for stress-free travel.</p>
+                                    <div class="icon"><i class="fa-thin fa-users"></i></div>
+                                    <h5>Staff Transport</h5><p>Ensure your staff arrives on time and stress-free with our reliable staff transport services. We offer tailored solutions to meet the specific needs of your business, providing safe and efficient transportation for your employees.</p>
+                                    <a class="book-now-btn" href="https://wa.me/971501461987?text=Hello%20Global%20Ovista%2C%20I%20would%20like%20to%20book%20your%20Staff%20Transport." target="_blank" rel="noopener noreferrer">Book Now <i class="fa-brands fa-whatsapp"></i></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="item mb-25 duru-slide-left"> <a href="service-details.html"><span class="arrow fa-thin fa-arrow-up-right"></span></a>
-                                    <div class="icon"><i class="fa-thin fa-headset"></i></div>
-                                    <h5>24/7 Customer Support</h5>
-                                    <p>Dedicated support available anytime during your journey.</p>
+                                    <div class="icon"><i class="fa-thin fa-key"></i></div>
+                                    <h5>Car Hiring</h5><p>Choose from a wide selection of high-quality vehicles with our flexible car hiring services. Whether you need a compact car for city driving or a luxury vehicle for a special occasion, we have the perfect option to suit your needs.</p>
+                                    <a class="book-now-btn" href="https://wa.me/971501461987?text=Hello%20Global%20Ovista%2C%20I%20would%20like%20to%20book%20your%20Car%20Hiring." target="_blank" rel="noopener noreferrer">Book Now <i class="fa-brands fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="item mb-25 duru-slide-right"> <a href="service-details.html"><span class="arrow fa-thin fa-arrow-up-right"></span></a>
+                                    <div class="icon"><i class="fa-thin fa-city"></i></div>
+                                    <h5>UAE City Tours</h5><p>Discover the beauty and culture of the UAE with our expertly guided city tours. Explore iconic landmarks, historic sites, and hidden gems with our knowledgeable guides, providing you with an unforgettable experience of this magnificent country.</p>
+                                    <a class="book-now-btn" href="https://wa.me/971501461987?text=Hello%20Global%20Ovista%2C%20I%20would%20like%20to%20book%20your%20UAE%20City%20Tours." target="_blank" rel="noopener noreferrer">Book Now <i class="fa-brands fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="item mb-25 duru-slide-right"> <a href="service-details.html"><span class="arrow fa-thin fa-arrow-up-right"></span></a>
+                                    <div class="icon"><i class="fa-thin fa-mountain-sun"></i></div>
+                                    <h5>Desert Safari</h5><p>Embark on an adventure of a lifetime with our thrilling desert safari tours. Experience the stunning landscapes, enjoy exhilarating dune bashing, and immerse yourself in the rich traditions of the desert with our carefully curated safari packages.</p>
+                                    <a class="book-now-btn" href="https://wa.me/971501461987?text=Hello%20Global%20Ovista%2C%20I%20would%20like%20to%20book%20your%20Desert%20Safari." target="_blank" rel="noopener noreferrer">Book Now <i class="fa-brands fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="item mb-25 duru-slide-right"> <a href="service-details.html"><span class="arrow fa-thin fa-arrow-up-right"></span></a>
+                                    <div class="icon"><i class="fa-thin fa-briefcase"></i></div>
+                                    <h5>Corporate Events</h5><p>Make your corporate events extraordinary with our bespoke transportation and tour solutions. From conferences and team-building activities to executive retreats, we offer tailored services that ensure your events run smoothly and impressively.</p>
+                                    <a class="book-now-btn" href="https://wa.me/971501461987?text=Hello%20Global%20Ovista%2C%20I%20would%20like%20to%20book%20your%20Corporate%20Events." target="_blank" rel="noopener noreferrer">Book Now <i class="fa-brands fa-whatsapp"></i></a>
                                 </div>
                             </div>
                         </div>
